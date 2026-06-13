@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.17)  13 JUN 2026 18:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.17)  13 JUN 2026 21:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -614,7 +614,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{d:/texlive/2026/texmf-dist/fonts/enc/d
 vips/lm/lm-ts1.enc}]
 [2]
-<fig1_complementarity.png, id=76, 903.1341pt x 251.4996pt>
+<fig1_complementarity.png, id=77, 903.1341pt x 251.4996pt>
 File: fig1_complementarity.png Graphic file (type png)
 <use fig1_complementarity.png>
 Package pdftex.def Info: fig1_complementarity.png  used on input line 234.
@@ -627,7 +627,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 mplementarity.png>] [5] [6]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 491.
-<fig2_delegation.png, id=172, 935.6556pt x 296.7888pt>
+<fig2_delegation.png, id=173, 935.6556pt x 296.7888pt>
 File: fig2_delegation.png Graphic file (type png)
 <use fig2_delegation.png>
 Package pdftex.def Info: fig2_delegation.png  used on input line 504.
@@ -643,11 +643,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D06CA8493CAC1F291244AE71C05B22C6;1444.
  ) 
 Here is how much of TeX's memory you used:
- 15556 strings out of 467525
- 244962 string characters out of 5423209
- 705686 words of memory out of 5000000
+ 15558 strings out of 467525
+ 244982 string characters out of 5423209
+ 706636 words of memory out of 5000000
  43926 multiletter control sequences out of 15000+600000
- 718765 words of font info for 228 fonts, out of 8000000 for 9000
+ 718854 words of font info for 229 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,1001b,655s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><d:/texlive/2026
@@ -661,10 +661,10 @@ mr8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr9.pfb><d:/texlive/
 nts/type1/public/lm/lmsy10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/l
 m/lmsy7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><d:/te
 xlive/2026/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on main.pdf (11 pages, 620357 bytes).
+Output written on main.pdf (11 pages, 618462 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
+ 311 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
  74 named destinations out of 1000 (max. 500000)
  50251 words of extra memory for PDF output out of 51595 (max. 10000000)
 

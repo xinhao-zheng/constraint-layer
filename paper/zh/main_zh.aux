@@ -1,18 +1,18 @@
 \relax 
 \providecommand\hyper@newdestlabel[2]{}
-\providecommand*\HyPL@Entry[1]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
 \citation{north1990institutions}
 \citation{arrow1974limits}
 \citation{park2023generative,chan2023harms}
-\HyPL@Entry{0<</S/D>>}
 \@writefile{toc}{\contentsline {section}{\numberline {1}引言}{1}{section.1}\protected@file@percent }
 \newlabel{sec:intro}{{1}{1}{引言}{section.1}{}}
-\citation{sadasivan2023detection}
-\citation{zhang2023watermarks}
 \@writefile{toc}{\contentsline {section}{\numberline {2}未被绑定的智能体}{2}{section.2}\protected@file@percent }
 \newlabel{sec:gap}{{2}{2}{未被绑定的智能体}{section.2}{}}
 \@writefile{toc}{\contentsline {paragraph}{非确定性。}{2}{paragraph*.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{无构造性的规则绑定。}{2}{paragraph*.3}\protected@file@percent }
+\citation{sadasivan2023detection}
+\citation{zhang2023watermarks}
 \citation{necula1997pcc}
 \citation{goldwasser1989knowledge,bensasson2014zerocash}
 \citation{ap2google2025}
@@ -26,7 +26,7 @@
 \@writefile{toc}{\contentsline {paragraph}{无可问责的身份。}{3}{paragraph*.7}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3}确定性的互补物}{3}{section.3}\protected@file@percent }
 \newlabel{sec:complement}{{3}{3}{确定性的互补物}{section.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 互补性。\textbf  {(a)}~按\emph  {生成性}（开放式决策的能力）对\emph  {可 绑定性}（使决策可证、可清算、最终的能力）放置各系统。生成式智能体处于高 生成性、近零可绑定性；仅记值账本与账户模型账本处于低生成性、部分可绑定 性；目标——可信的自主性——只有将智能体与一个确定性的、自携证明的基底配 对才能达到。\textbf  {(b)}~智能体的动作生命周期。生成的、非确定的一步 （\emph  {决策}）属于模型；受规则约束的、确定的诸步（\emph  {证明}、\emph  {结 算}、\emph  {审计}）属于账本。约束层附着于二者边界，在此强制由委托人编译的 策略谓词 $\varphi $。示意图。}}{4}{figure.caption.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 互补性。\textbf  {(a)}\hspace  {0.25em plus 0.125em minus 0.08em}\ignorespaces 按\emph  {生成性}（开放式决策的能力）对\emph  {可 绑定性}（使决策可证、可清算、最终的能力）放置各系统。生成式智能体处于高 生成性、近零可绑定性；仅记值账本与账户模型账本处于低生成性、部分可绑定 性；目标——可信的自主性——只有将智能体与一个确定性的、自携证明的基底配 对才能达到。\textbf  {(b)}\hspace  {0.25em plus 0.125em minus 0.08em}\ignorespaces 智能体的动作生命周期。生成的、非确定的一步 （\emph  {决策}）属于模型；受规则约束的、确定的诸步（\emph  {证明}、\emph  {结 算}、\emph  {审计}）属于账本。约束层附着于二者边界，在此强制由委托人编译的 策略谓词 $\varphi $。示意图。}}{4}{figure.caption.8}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{fig:complement}{{1}{4}{互补性。\textbf {(a)}~按\emph {生成性}（开放式决策的能力）对\emph {可 绑定性}（使决策可证、可清算、最终的能力）放置各系统。生成式智能体处于高 生成性、近零可绑定性；仅记值账本与账户模型账本处于低生成性、部分可绑定 性；目标——可信的自主性——只有将智能体与一个确定性的、自携证明的基底配 对才能达到。\textbf {(b)}~智能体的动作生命周期。生成的、非确定的一步 （\emph {决策}）属于模型；受规则约束的、确定的诸步（\emph {证明}、\emph {结 算}、\emph {审计}）属于账本。约束层附着于二者边界，在此强制由委托人编译的 策略谓词 $\varphi $。示意图。}{figure.caption.8}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces 分工。智能体唯一的原生强项，正是账本唯一的原生弱项，反之亦然；承载 后果的自主性需要两列同时具备。}}{4}{table.caption.9}\protected@file@percent }
@@ -69,7 +69,7 @@
 \citation{ap2google2025,x402coinbase2025}
 \citation{erc4337}
 \citation{daian2020flashboys}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 受界委托与确定性鸿沟。\textbf  {(a)}~委托人编译策略 $\varphi $；智能体 的动作 $a$ 携带证明 $\pi (a \models  \varphi )$ 同行，由对手方核查；结算与审 计化归为对照公共账本 $L$ 重放证明。权限在事前受界。\textbf  {(b)}~为何确定性 （R2）承重：在非确定性轨道上，核查与打包之间的重排或插入会清算出一个状 态 $s' \neq  s_0$，于是智能体已验证的动作不是被清算的那个；在确定性轨道上， 动作的输入固定其效果，核查即清算。示意图。}}{7}{figure.caption.21}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 受界委托与确定性鸿沟。\textbf  {(a)}\hspace  {0.25em plus 0.125em minus 0.08em}\ignorespaces 委托人编译策略 $\varphi $；智能体 的动作 $a$ 携带证明 $\pi (a \models  \varphi )$ 同行，由对手方核查；结算与审 计化归为对照公共账本 $L$ 重放证明。权限在事前受界。\textbf  {(b)}\hspace  {0.25em plus 0.125em minus 0.08em}\ignorespaces 为何确定性 （R2）承重：在非确定性轨道上，核查与打包之间的重排或插入会清算出一个状 态 $s' \neq  s_0$，于是智能体已验证的动作不是被清算的那个；在确定性轨道上， 动作的输入固定其效果，核查即清算。示意图。}}{7}{figure.caption.21}\protected@file@percent }
 \newlabel{fig:delegation}{{2}{7}{受界委托与确定性鸿沟。\textbf {(a)}~委托人编译策略 $\varphi $；智能体 的动作 $a$ 携带证明 $\pi (a \models \varphi )$ 同行，由对手方核查；结算与审 计化归为对照公共账本 $L$ 重放证明。权限在事前受界。\textbf {(b)}~为何确定性 （\R {2}）承重：在非确定性轨道上，核查与打包之间的重排或插入会清算出一个状 态 $s' \neq s_0$，于是智能体已验证的动作不是被清算的那个；在确定性轨道上， 动作的输入固定其效果，核查即清算。示意图。}{figure.caption.21}{}}
 \@writefile{toc}{\contentsline {paragraph}{R5}{7}{paragraph*.20}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {6}智能体商业的形态}{7}{section.6}\protected@file@percent }
