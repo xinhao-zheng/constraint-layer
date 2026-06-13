@@ -1,0 +1,2 @@
+# scripts/plot_figures.py
+matplotlib>=3.8
